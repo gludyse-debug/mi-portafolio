@@ -1,0 +1,49 @@
+/* 1. Fondo y fuente general */
+body {
+    background-color: #FFF7ED; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #1a1a1a;
+    margin: 0;
+    padding: 0;
+}
+
+/* 2. Encabezado con degradado rosado */
+header {
+    background: linear-gradient(135deg, #FFF7ED, #f06bcb);
+    color: rgb(20, 7, 7);
+    padding: 60px 30px 100px 30px; 
+    text-align: center;
+}
+
+/* 3. Estilo para tu foto circular */
+.foto-perfil {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 4px solid white;
+    object-fit: cover;
+    margin-bottom: 10px;
+    background-color: white; 
+}
+
+/* 4. Estilo de los títulos */
+h2 {
+    color: #320ac2;
+    border-bottom: 2px solid #3f55d3;
+    display: inline-block;
+    padding-bottom: 5px; 
+    margin-bottom: 20px;
+}
+
+/* 5. Contenedor principal */
+main {
+    max-width: 800px;
+    margin: -60px auto 40px auto;
+    background: rgb(16, 11, 11);
+    padding: 40px;
+    border-radius: 30px; 
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1); 
+    position: relative; 
+    z-index: 2;
+    color: #ffffff; 
+}
